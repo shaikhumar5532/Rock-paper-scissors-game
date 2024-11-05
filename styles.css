@@ -1,0 +1,89 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #36abda, #3225e2);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 45%;
+    min-width: 500px;
+    background-color: #daff75;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.scores {
+    margin-bottom: 50px;
+}
+
+.weapons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.weapon {
+    background-color: #1bcaff;
+    color: #000000;
+    border: 2px solid black;
+    font-size: 50px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.4s, box-shadow 1s;
+    box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.weapon:hover {
+    transform: scale(1.2);
+    box-shadow: 10px 4px 10px rgb(0, 0, 0, 2.5);
+}
+
+.details {
+    margin-top: 30px;
+}
+
+#result {
+    width: 180px;
+    padding: 10px 0;
+    margin: 30px auto;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+#user_choice,
+#comp_choice {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+span {
+    font-weight: 600;
+}
+
+#ro {
+    background-color: #FF8C42;
+}
+
+#pa {
+    background-color: #FF3C38;
+}
+
+#sci {
+    background-color:#A23E48;
+}
